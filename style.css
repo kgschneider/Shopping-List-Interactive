@@ -1,0 +1,71 @@
+#lists {
+	display: flex;
+	flex-direction: row;
+}
+
+ul {
+	list-style: none;
+	padding: 10px;
+}
+
+#app {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	background: white;
+	border: 5px solid #002E40;
+	border-radius: 20px;
+	padding: 10px;
+	margin-top: 5%;
+}
+
+#forms {
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+	padding: 10px;
+}
+
+#items {
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+}
+
+#del {
+	border: 2px solid #FF1947;
+	background: #FF1947;
+	color: white;
+	text-align: center;
+	margin-right: 2.5%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	background: url('images/background.jpg');
+	background-repeat: no-repeat;
+}
+
+#sl {
+	font-family: 'Bangers', cursive;
+	font-size: 2em;
+	color: #002E40;
+}
+
+#add, #removeall {
+	background: #002E40;
+	color: white;
+	font-family: 'Bangers', cursive;
+	font-size: 1.2em;
+}
+
+#todo {
+	width: 55%;
+}
+
+li {
+	padding: 10px;
+	font-size: 1.2em;
+}
